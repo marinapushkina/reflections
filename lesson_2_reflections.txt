@@ -14,13 +14,31 @@ It gives you more control.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can run git diff and see all changes that was made and make decision based on that.
+
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When you want to run/create some new features or different options but don't want to interfere with the main files.
+The brances will create new files and will not messed up the main files.
+
+
 How do the diagrams help you visualize the branch structure?
+
+I can see all commits in the same time and in one place.
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+To combine all changes of two different branches in one branch. It easy to see and understand when presenting in the diagram.
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+Automatic merging will merge files and compare them automaticly and if some conflicts in the files it will let you know to go and make changes manually. In manually merging you will need to double check if you merging everything correctly and not deleting any important staff.
